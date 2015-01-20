@@ -65,7 +65,7 @@ def get_header_value(path):
                 break
         if not found:
             raise ImproperlyConfigured('Cannot map path "%s"' % path)
-    return quote(path.encode('utf-8'))
+    return path.encode('utf-8')
 
 
 class TransferHttpResponse(StreamingHttpResponse):
