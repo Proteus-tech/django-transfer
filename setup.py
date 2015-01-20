@@ -5,7 +5,7 @@ from setuptools import setup
 
 name = 'django-transfer'
 version = '0.2'
-release = '2'
+release = '2-proteus-1'
 versrel = version + '-' + release
 readme = os.path.join(os.path.dirname(__file__), 'README.rst')
 with open(readme) as readme_file:
